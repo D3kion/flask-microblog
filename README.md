@@ -1,3 +1,1 @@
-# flask-microblog
-
-Pet project from book
+# Build a Microblog with Flask
