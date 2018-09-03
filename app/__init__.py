@@ -7,7 +7,6 @@ from flask_login import LoginManager
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
 
-from app import errors, models, routes
 from config import Config
 
 app = Flask(__name__)
@@ -50,3 +49,5 @@ if not app.debug:
 
     app.logger.setLevel(logging.INFO)
     app.logger.info('Microblog startup')
+
+from app import errors, models, routes
